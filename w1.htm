@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function myFunction() {
+  document.getElementById("demos").innerHTML = "Paragraph changed.";
+}
+</script>
+</head>
+<body>
+
+<h2>My First JavaScript</h2>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
+<button type="button" onclick="document.getElementById('name').innerHTML='hello world'">click here</button>
+<p id="name">this is me</p>
+
+<button type="button" onclick="document.getElementById('on').src='data:image/webp;base64,UklGRloEAABXRUJQVlA4IE4EAACwHgCdASqDAIMAPpFCm0ulqqYlJfRKMVASCWVsPr07tz8/mNj3wJwXiDgUvR5lfOO2euBq8t6VdvfYFfTBkSSG6wiWQ3EREme2XM1QHL56azx+CfqVq6cevs0kzXNvWdMNo60Qq5Vfxo6p5y3BhuBd6L8S5BipKx+IUoB755C7MCvGhBECQPBSYr/ourGqoay0PWK9kqobU/62JfG3ojDpgeV69Se5ZKJkXAmylxL/Lpf/NrwBjc6u2vIx/zyfQSv2IqUh7bk7n317GOTh4waP8z2m+CjQ3Vv5UfkQxmuq8JuPPAeehK6vv5d97dyNYM/T6fIh+4yuyZr0cuQ3QAD+8Jcsyqx/ruoUr1DhjCSdP/H+yQeOetTBozH+EWNvQcWUH4YV3eyOhEpkv5qcjXA3FjXkOMR4+3qFtxA2/PavZ87Ffyn9p6lyS1MTdAoWDw7MYM9XW02wjpJ0d3LFfAWFTEzGG86fGot1tymDao/fIx/zeyXVaPeHmZYDLuRmZ3GqcCi+s98L4wbEgSP870r0NfJf0LJFNyBBd0XvZzN7JSFZYTuGrpxpq1kQbXvQZWHFUXjDAKO+bZubwL0Bag8ev1juq/iDeQFJHntRsmSc9MHxZKiq88pz3PKhbr+KAYT46Q6KNeFuMthq3HCuJuCZNEi3dyh6t+FYqHWsl8OCfwgYfcta8Q0BavNf3ohRFgm6+G8wOqrhVdNazAJtXAov7qyvHR3fmmr7pjEZgJFtsrQqJs17DHa5AhpdKYE1SR0QFpbKp3JrNuOALGaxtZwiSxL74vm3uyxRfCWSA3HmoJJjJib24mJkUhrgVEp45N7H38/+76Yj6QXQAHOMFdAHz2caanfz2eMCIi0nSB/AakuFLl39EA4nHOTk5Widjo4+pYNJX1ZUrI3Up0rFgH7OTwOw4rp9qkzSkG2NOkQbgBhtUZwO70TEMYmSj2ujaQ7DLV2yXNug0DikSrqY9ca7d0SlDdIn47VGif4hexZ3yV7JD6scj3+JwKltvrwSS8QdmRDttkyXi1pHLQy9GUMrBHpjWqHDnL65myxL5Tlx39o6DwzAG5Ew3/rSAMf6FZifG04EF1bURJb4pOHj/vNiOiMldsci6oXtjAmspLdQDJ87r7byFtc4ctWiK702UFA1/Md1Xy1BC1eW7TShKCDGGfy1sEj0CBAbvlvk4R2v3apj06gW1FXmuHaouOcZkyyjKL3DXdJDzj8HGe23CsWzezhxRMwqWp9Wi9ggtxrwDkZm1MUg/lndoT52XB2rEDJ2euc6cJsFXdtzwO+qXpIqjNhytUHAoKNRH6eaoaBWOtt0okOo8ES4xWCCXhS6FMPzSy2Y1jdCDJ6q6xL2fPBmXLFw4whbtAe8nyn+HmVH08mm6XfNNe/gIhU6TnRO56o6FRDlaatzd/aB7K/4Q+EacpEcGD3NMnjxZQPaGG8db1pJkG1C9IcjUlflLAAA' ">on the bulb</button>
+
+<img id='on' src="data:image/jpeg;base64,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" style="width:100px">
+
+<button type="button" onclick="document.getElementById('on').src='data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAIIAfwMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAAAQIEBQMGB//EAEAQAAEDAgMDCgMECgEFAAAAAAEAAhEDEgQhQTEyUQUGEyIzQlJhcYEjYpE0ocHwFENTY4OisdHh8RUHJERygv/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAbEQEBAQEBAAMAAAAAAAAAAAAAAQIRMQMhQf/aAAwDAQACEQMRAD8A+0Em6T2mjeKeybc53/JEaF0z352Ja7Yj+dAG20An4fFPMul0XjdCUx1rZ/d8ERpMz3/CgBtcW7x3vJVsVjKOGpxNzdADmTwUcbiujaWtmRkSDm4rNbQfVfc8y7joEEavKeKxR+C4Ug0RltVY0+UCSX4nES75v7LWoYMTLhn6LQpYYRmqPOdDj6eVOviSdBJg/VWafKWLoWjEt6QN9j/lb/QNGpXOrgqdVpBESn0OWFxdPEjpKJBedrTlC7CLYb2ZOZ/PssbFYKpg6gqUTs+/yV/B4oVgBMEDd4ngVBayIaCeoN08U+tdcR8SNnkkchMSD3fCiO7d/E/BACIdBkHf8k4Ftp7PQpe0R3fGicpiZ/V8EClthIHw9Uzsbdr2fkmZLg4gB+jUtkkZzv8AyoDrXQD8XUrnVeBTPRmAco810MWwTFPR2pVbE1CX5gC3IBBRqNNSpIGQyb6K7RFNrQ2YXBp4KRlaGjSsiWkFTNWm3a9o91lAJ2qcGn09I7KrPqptc146rgfRZBYkCWHqkj0KcGpXa19IioARwWJWpnC4mWnq8R9x9loNxT7LXgOVbFEVWCBmCgu4eoarZGVQdp5rp1bZE9Fw81TwJbmHEj+4/wBq5JumPieHSFAGcrt47nkmN8hvajaUsgCGmWnfPhQYLYdlT0cgDl1bpdo/giJJjKNvzpZWm2ei14pmOrd/DQGQE25HucFQrbX5zJK0BdflHSxmdFn1cnuAmJ1SCMhogJB3FQfIXNz4yV6LF4GuSOlCxw1wxeIa9ziHFtRkPItkQRlpLZ91OKozZWd6OAI/A/enRrh4OqRIKy6dbF3uaKdJwGx15E+0H+qng6+KfVqdO2n0d0MsJMAZGT6p0aKTki4bUE9WVUSwJIqukTJ/BaEGYnreNUMGHGowjUkn0hXurZ+6++VlTnaRkBtHiQdlxFw8HBBmRcOt3P8AKBvm0jpdeCB5k3Ww/RnFKYujOd75UGQbSQXaO4J+mUb3zIFlbBPUGx/FVMWD0kkWyrcgC4t6ujFCsy9lhNz9oPDyQZ1UZSlTpNqHMGCF0IkEQlQPWISivicCWV6FRrwQ4upmfMT/AFbHuudRgp1ehcfiW3Wjh+QtHEyMJVcMzSio0cS3OPuXXFZhsHKZUGSxjv0Z1Sk5rgJz+bh55rvTwrsPTbT2wMyDtPFXMRDv0akIz65Hk2PxLVyqOz2oOTTBgoIuIaPdcpJeSrDBsAEuOxWCzhmCbibQ0QPMqzJuujr+BRptFOm0GXDQahSgzbd1vGgNkgZg7xndQYtgmGaP4okZkCANo8SNnWIJZozggBbZl2evFB0u/h/n6JyZkiHDYzilsmM7t75UB1rzbHS68IQLbTb2feRlFpdDfHxQZJuIhw2M4oKmJp2OvG47YuMWvDvqr1Vl9NwGbjp4VRObSgt0iJBOwqgMRRwuBY3EVW0+hupkvPhyn6QfddhiA0EQSVh0cVQ/5DGHE1S4mvY2m3MjIfTOB7LNV6BkPrVn6MDKY+lxPvcPoq2IdEwuOGrBgqtouDmF23zj/SlJcetmrESosgXHar2FYJvO93FXptL3ta2T6LQADW2tzYe9wVAJk27/AH0urZl2P3ynkQATAGx3iRJm63reBAGZF0Xfq0xNxt7XXglxAMg7x8KIkWkw0bH8UDgzBMv0dwS2zGUb/wAyOrbA7PU6oOl3/wAef5yQBItuIJp6N4IIIIBMvO67gn1riWiauo0hIRaQ0/D7xQG0kDJw3jxWbiiOndYCAc4WkYgXbo3PNUOULmVelqmARmRogokmTrGiz4pfHp1KLXNdVJd5nLP181ZPKnJrC8OqyYOZa7b9FSxHK3JdIueKo3nbGO4+i53eP2tcrRw72mm5rGBoY4gei6AmCVl0+cnJTAYqvPWdkKbuPor2G5RwmNIbh3umNjmEf1Cs3m+VLLGvgGkvcWmCAre0EtyYNreK4YVkUR0ohrjPnK7mbpd2ndGi2gMAAkS07o8KIddaT8TxIEybd8744IhtsA/C46ygMiCRkBvg95EgC4iaZ2N4IzkF28Oz8087pb2uo0QLbnbHycUbPOf5EzMgEg1NHJDvW6b/AJoCJyuj95xR5xEdzxINtsnstG6oM3AE/E7pGiA84me74Vic86OMq828aOTXD9KYzpGPIJmM4yW2Jk25OG+dCqPLUf8AD4otLm07MrdoPH04+SD4e/nXyhg8JTdj+T+mqPHWFEZtMcM1XxPPegAGv5MxLXROVp/sr3OtlMV6bsbybVrtI/8ACJLj5wAsyhheb74L+bfO+q46Cll9y4X4cW+NzeonR54UHOa0YSvBMg2jIe0r33MXFvx+NoVHiym5xtbOboGvuvNclck4eu8u5O5gcq1HbbsfjHUfeCQSvZ80Kb28pNbWZQpVw8g0KO5TgcZJn1Ws/HjN7DW7fXvJ1LZ+TgjZlN3z8E4cXENMVIzPEJCLSW5U9WnVdWB5TEd7xI0m3+GgxAnNh3ANE4ddE/F8WkIFEZTM6+BPykj95xSEQ4jd744oMWAkE0tGoDK0hpPR6u1CMurdkBufMiRF1pHycUfzTs+RAda6QB0mrdECLTBlnecdEeV0H9pxR5xAHcPeQBiBJhvcPFVOWGGpyZi2kltToXSBwhW/UTPd8KI7t2f7T8EHwjnI6jhq1Oo7F4jkppGdVgLwfoudHlnDtY2f+qdai3wDk6oT9YX0jnLzQfXqHFckkNcN7DPDXA+bQ8Ee2S8ZV5Vdga5w1WhyDSrU8nNxPJbWVB6yR/RZ4KmDx3N/G1banOrnRy++PsuFpua13q0iV7jmbSsxdOnSwb8LQbcf0eqSajBG1xKzub9TnFyyP+z5T6PCbHPw1CnRpegcGyfYr3XI3JNDkqi8Mc59V5mrVeSXVT6nNXg0DbaA4xT0dqUGbgXZVNGjYUeZBI8HBHkTM7HjRUAm4wJd3xoEdW2J+H4tZRt1iO9o5E625fs4+9AGcp29zzTG+SBNTVs5BLykmdfAjykA/tOKCTvtLfRRZ+u9/wAUIQRf9mb6ro7t2eiEIE3tKqgPs3uhCCbu1o+ixOcvJnJ+Pq4d2OwOFxLm1Iaa1FryBlskJIQbLGNp4YsptDWNdDWtEABSftofnghCCTPtLvRQpfZ3+qEIB3ZUlM/aR/6poQQZuVknfZmoQg//2Q==' ">off the bulb</button>
+
+<p id="demo1">JavaScript can change the style of an HTML element.</p>
+
+<button type="button" onclick="document.getElementById('demo1').style.fontSize='35px'">Click Me!</button>
+<p id="demo2">JavaScript can hide HTML elements.</p>
+
+<button type="button" onclick="document.getElementById('demo2').style.display='none'">Click Me!</button>
+
+<p id="demo3" style="display:none">Hello JavaScript!</p>
+
+<button type="button" onclick="document.getElementById('demo3').style.display='block'">Click Me!</button>
+<h1>JavaScript in Body</h1>
+
+<p id="demo4"></p>
+
+<script>
+document.getElementById("demo4").innerHTML = "My First JavaScript";
+</script>
+<p id="demos">A paragraph</p>
+<button type="button" onclick="myFunction()">try it</button>
+<p id="demo6"></p>
+
+<script>
+document.getElementById("demo6").innerHTML = 5 + 6;
+</script>
+<script>
+document.write(5 + 6);
+</script>
+<script>
+window.alert(5 + 6);
+</script>
+<script>
+alert(5 + 6);
+</script>
+<script>
+console.log(5 + 6);
+</script>
+<button onclick="window.print()">Print this page</button>
+<p id="demo7"></p>
+
+<script>
+let x, y, z;  // Statement 1
+x = 5;        // Statement 2
+y = 6;        // Statement 3
+z = x + y;    // Statement 4
+
+document.getElementById("demo7").innerHTML =
+"The value of z is " + z + ".";  
+</script>
+<p id="dem8"></p>
+
+<script>
+document.getElementById("dem8").innerHTML =
+"Hello Dolly!";
+</script>
+<button type="button" onclick="myFunction()">Click Me!</button>
+
+<p id="dem1"></p>
+<p id="dem2"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("dem1").innerHTML = "Hello Dolly!";
+  document.getElementById("dem2").innerHTML = "How are you?";
+}
+</script>
+<p id="demo"></p>
+
+<p id="demo1"></p>
+
+<script>
+let lastname, lastName;
+lastName = "Doe";
+lastname = "Peterson";
+document.getElementById("demo").innerHTML = lastName;
+document.getElementById("demo1").innerHTML = lastname;
+
+</script>
+
+
+
+</body>
+</html> 
