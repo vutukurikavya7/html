@@ -1,0 +1,21 @@
+<html>
+    <body>
+        <script>
+            const arr=new Array();
+            var n=prompt("enter length of array");
+            for(var i=0;i<n;i++){
+                arr[i]=prompt("enter element");
+            }
+            for(var i=0;i<n-1;i++){
+                 for(var j=i+1;j<n;j++) {
+                    if(arr[i]>arr[j]){
+                    var t=arr[i];
+                    arr[i]=arr[j];
+                    arr[j]=t;
+                    }
+                 }           
+                }
+                document.write(arr);
+            </script>
+    </body>
+</html>

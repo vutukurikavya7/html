@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>count</title>
+    </head>
+    <body>
+        <script>
+            function counting(){
+                 var string=prompt("enter string");
+                 var letter=prompt("enter letter");
+                 var count=0;
+                 for(var i=0;i<string.length;i++){
+                    if(string[i]==letter){
+                         count=count+1;
+                    }
+                 }
+                return count;
+            }
+            document.write(counting());
+
+        </script>
+    </body>
+</html>
